@@ -12,16 +12,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(Bg.webp);
-    background-position:center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #000;
 }
 
 .wrapper {
     width: 380px;
     padding: 40px 30px 50px 30px;
-    background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+    background: white;
     border-radius: 25px;
     text-align: center;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
@@ -99,5 +96,5 @@ form input::placeholder {
 }
 #summit:hover,#login:hover{
     border: black solid 2px;
-    background-color: #acacac;
+    background-color: #ebdfdf;
 }
