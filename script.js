@@ -29,6 +29,7 @@ document.getElementById("summit").addEventListener("click", () => {
   createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       const user = userCredential.user;
+      alert("sign in successful")
       window.location.href = "https://dhiliprajk.github.io/PORTFOLIO_Website/";
     })
     .catch((error) => {
